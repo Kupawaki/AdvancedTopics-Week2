@@ -7,25 +7,25 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textTab1"
+        android:id="@+id/tab1TV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="This is tab 1"
+        android:text="@string/tab1TV"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnTEST1"
+        app:layout_constraintTop_toBottomOf="@+id/tab1BTN"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/btnTEST1"
+        android:id="@+id/tab1BTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Test Button 1"
+        android:text="@string/tab1BTN"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

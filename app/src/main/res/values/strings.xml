@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TabbedApplication</string>
+    <string name="tab1TV">This is tab 1</string>
+    <string name="tab1BTN">Test Button 1</string>
+    <string name="tab2TV">This is tab 2</string>
+    <string name="tab2BTN">Test Button 2</string>
+    <string name="tab3TV">This is tab 3</string>
+    <string name="tab3BTN">Test Button 3</string>
 </resources>

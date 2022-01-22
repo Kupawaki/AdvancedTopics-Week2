@@ -13,7 +13,6 @@ import androidx.fragment.app.Fragment;
 //The three fragments are identical, all comments here apply to the rest
 public class Frag1 extends Fragment
 {
-    private Button btnTEST;
 
     //Nullable is necessary because onCreateView may return null if we don't call it in MainActivity.onCreate
     @Nullable
@@ -24,15 +23,8 @@ public class Frag1 extends Fragment
         View view = inflater.inflate(R.layout.frag_1,container,false);
 
         //Get the button, set a listener, make a toast for testing
-        btnTEST = view.findViewById(R.id.btnTEST1);
-        btnTEST.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                Toast.makeText(getActivity(), "TESTING BUTTON CLICK 1",Toast.LENGTH_SHORT).show();
-            }
-        });
+        Button tab1BTN = view.findViewById(R.id.tab1BTN);
+        tab1BTN.setOnClickListener(view1 -> Toast.makeText(getActivity(), "TESTING BUTTON CLICK 1",Toast.LENGTH_SHORT).show());
 
         return view;
     }

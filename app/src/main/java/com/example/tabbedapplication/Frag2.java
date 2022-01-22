@@ -12,23 +12,15 @@ import androidx.fragment.app.Fragment;
 
 public class Frag2 extends Fragment
 {
-    private Button btnTEST2;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
     {
         View view = inflater.inflate(R.layout.frag_2,container,false);
-        btnTEST2 = (Button) view.findViewById(R.id.btnTEST2);
+        Button tab2BTN = (Button) view.findViewById(R.id.tab2BTN);
 
-        btnTEST2.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                Toast.makeText(getActivity(), "TESTING BUTTON CLICK 2",Toast.LENGTH_SHORT).show();
-            }
-        });
+        tab2BTN.setOnClickListener(view1 -> Toast.makeText(getActivity(), "TESTING BUTTON CLICK 2",Toast.LENGTH_SHORT).show());
 
         return view;
     }
