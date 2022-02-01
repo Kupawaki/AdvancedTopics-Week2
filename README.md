@@ -7,5 +7,5 @@ The goals for this app were just to create a template of sorts that included the
 No major problems were encountered during the making of this POC, thanks to some excellent help from a tutorial mentioned above
 ### App Completion Status
 This app has been fully completed
-###Tutorials
+### Tutorials
 https://www.youtube.com/watch?v=bNpWGI_hGGg
